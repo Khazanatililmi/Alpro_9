@@ -46,7 +46,7 @@ def timer_belajar():
     tk.Button(timer_window, text="Mulai", command=start_timer).pack(pady=5)
 
     # Label untuk menampilkan waktu hitungan mundur
-    timer_label = tk.Label(timer_window, text="00:00", font=("Helvetica", 16))
+    timer_label = tk.Label(timer_window, text="00:00", font=("Helvetica", 16)) #untuk menampilkan waktu hitungan mundur
     timer_label.pack(pady=10)
 
 # Fungsi Catatan Harian
